@@ -1,12 +1,8 @@
 import './App.css';
-import Character from './components/Character';
+import Board from './components/Board';
 
 function App() {
-  return (
-    <Character isHighlighted={false} isValidTranslation={false}>
-      B
-    </Character>
-  );
+  return <Board></Board>;
 }
 
 export default App;
